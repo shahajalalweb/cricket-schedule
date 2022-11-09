@@ -442,6 +442,18 @@ body {
     .schedule-match .match {
         flex-flow: column nowrap;
     }
+    .match .match-name {
+        margin-bottom: 10px;
+        margin-left: 4px;
+        width: 100%;
+    }
+    .match .team {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .match .times {
+        width: 100%;
+    }
 
 }
 
