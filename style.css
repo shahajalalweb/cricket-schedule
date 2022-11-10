@@ -15,7 +15,8 @@ h3 {
 
 body {
     height: 100vh;
-    background: rgb(218, 208, 208);
+    /* background: #fff; */
+    background: rgb(240, 236, 236);
 }
 
 .container {
@@ -33,7 +34,7 @@ body {
     width: 100%;
     margin: 10px 0;
     border-radius: 7px;
-    background: #eecb59;
+    background: #8BBCCC;
 }
 .container .header .head {
     display: inline-block;
@@ -70,12 +71,12 @@ body {
 
 .header ul li a.active {
     color: #fff;
-    background: #b4c19c;
+    background: #7895B2;
 }
 
 .header ul li a:hover:not(.active) {
     color: #fff;
-    background-color: #b4c19c;
+    background-color: #7895B2;
   }
 
 
@@ -85,7 +86,7 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    background: rgb(213, 213, 184);
+    /* background: rgb(213, 213, 184); */
     justify-content: space-between;
 }
 
@@ -97,7 +98,8 @@ body {
     height: 100%;
     width: 70%;
     border-radius: 5px 5px 0 0;
-    background: rgb(251, 247, 247);
+    /* background: rgb(240, 236, 236); */
+    background: #fff;
 }
 
 .shedule .shedule-head {
@@ -129,11 +131,11 @@ body {
 }
 
 .shedule-head ul li:hover {
-    background: #eecb59;
+    background: #7895B2;
 }
 
 .shedule-head ul li.active {
-    background: #eecb59;
+    background: #7895B2;
 }
 
 .shedule-head ul li a {
@@ -213,7 +215,8 @@ body {
     height: auto;
     width: 29%;
     border-radius: 5px 5px 0 0;
-    background: rgb(240, 236, 236);
+    /* background: rgb(240, 236, 236); */
+    background: #fff;
 }
 
 .sidebar .sidebar-update {
@@ -341,7 +344,7 @@ body {
     margin-bottom: 20px;
     height: auto;
     border-radius: 8px;
-    background: rgb(224, 209, 209);
+    background: #DFDFDE;
     transition: 0.2s all;
 }
 
