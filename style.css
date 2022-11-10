@@ -367,7 +367,7 @@ body {
     width: 70%;
 }
 
-  .table table tr th {
+.table table tr th {
     padding: 20px;
     font-size: 20px;
     background: #B6E2A1;
@@ -383,6 +383,48 @@ body {
 .table table tr:nth-child(odd) {
     background-color: #D6EEEE;
   }
+
+.table2 {
+    margin: 40px;
+}
+
+.table2 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.table2 table tr th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table2 table tr th, td:first-child {
+    width: 15%;
+}
+
+.table table tr th, td:nth-child(2) {
+    width: 70%;
+}
+
+.table2 table tr th {
+    padding: 20px;
+    font-size: 20px;
+    background: #B6E2A1;
+}
+
+.table2 table tr td a {
+    text-decoration: none;
+}
+.table2 table tr td p {
+    font-size: 14px;
+}
+
+.table2 table tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
+
 
 
 
@@ -485,6 +527,8 @@ body {
         margin-bottom: 45px;
     }
 
+
+
     .footer {
         flex-direction: column;
         justify-content: center;
@@ -522,5 +566,11 @@ body {
         width: 100%;
     }
 
+    .schedule-content {
+        margin: 20px;
+    }
+    .table, .table2 {
+        margin: 10px;
+    }
 }
 
