@@ -369,6 +369,13 @@ body {
     left: 0px;
 }
 
+.ground ul li .learn-more {
+    font-size: 14px;
+}
+.ground ul li .learn-more:hover {
+    font-size: 16px;
+}
+
 .ground ul li:first-child {
     margin-left: 10px;
     width: 8%;
