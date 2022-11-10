@@ -105,6 +105,7 @@ body {
 .shedule .shedule-head {
     margin-top: 10px;
     margin-left: 20px; 
+    margin-bottom: 50px;
 }
 
 .shedule-head .schedule-h {
@@ -331,9 +332,60 @@ body {
     color: rgb(190, 178, 178);
 }
 
+/* content page style  */
+
+.schedule-content {
+    margin: 0 40px;
+    margin-bottom: 30px;
+}
+.schedule-content h2 {
+    margin-bottom: 10px;
+}
+.schedule-content p {
+   margin-top: 10px;
+}
+
+.table {
+    margin: 40px;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
 
- /* content page style */
+
+.table table tr th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table table tr th, td:first-child {
+    width: 70%;
+}
+
+  .table table tr th {
+    padding: 20px;
+    font-size: 20px;
+    background: #B6E2A1;
+}
+
+.table table tr td a {
+    text-decoration: none;
+}
+.table table tr td p {
+    font-size: 14px;
+}
+
+.table table tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
+
+
+
+/* 
+ content page style
 .shedule .ground-list {
     display: flex;
     align-items: center;
@@ -402,7 +454,7 @@ body {
 
 .ground ul li a i {
     font-size: 12px;
-}
+} */
 
 
 
